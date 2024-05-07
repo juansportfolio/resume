@@ -443,6 +443,118 @@ section {
   margin-bottom: 0;
 }
 
+
+
+/*--------------------------------------------------------------
+# Resume Download
+--------------------------------------------------------------*/
+.subscribe-line {
+  background-color: #FFFCF5;
+  padding: 35px 0;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 0;
+}
+
+.subscribe-line-transparent {
+  background-color: #0a0f10;
+  color: #DDDDDD;
+}
+
+.subscribe-line-transparent .links ul a:not(.btn) {
+  color: #A49E9E;
+}
+
+.subscribe-line-transparent .links ul a:not(.btn):hover,
+.subscribe-line-transparent .links ul a:not(.btn):focus {
+  color: #F1EAE0;
+}
+
+.subscribe-line-transparent .copyright {
+  color: #A49E9E;
+}
+
+.subscribe-line-transparent .copyright ul>li a:not(.btn) {
+  color: #A49E9E;
+}
+
+.subscribe-line-transparent hr {
+  border-color: #66615b;
+}
+
+.subscribe-line-transparent {
+  background-size: cover;
+  position: relative;
+}
+
+.subscribe-line-transparent .container {
+  z-index: 2;
+  position: relative;
+}
+
+.subscribe-line-transparent hr {
+  border-color: #A49E9E;
+}
+
+.subscribe-line-transparent .copyright {
+  color: #A49E9E;
+}
+
+.subscribe-line-transparent .copyright ul>li a:not(.btn) {
+  color: #A49E9E;
+}
+
+.subscribe-line-transparent::after {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(17, 17, 17, 0.5);
+  display: block;
+  content: "";
+  z-index: 1;
+}
+
+.subscribe-line .form-control {
+  border: 1px solid #DDDDDD;
+  padding-left: 10px;
+}
+
+.subscribe-line .btn {
+  margin: 0 auto;
+  background-color: #ffffff;
+  font-weight: 600;
+}
+
+.subscribe-line .btn:hover {
+  margin: 0 auto;
+  background-color: #f0efef;
+  font-weight: 600;
+  color: #bb0505;
+}
+
+.subscribe-line .btn.btn-block {
+  width: auto;
+}
+
+.filter-red::after {
+  background-color: #bb0505;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.text-white {
+  font-weight: 600;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
