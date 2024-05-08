@@ -892,7 +892,12 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  max-width: 80%;
+  height: auto;
+}
+
+.portfolio-details .swiper-slide {
+  text-align: center;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
