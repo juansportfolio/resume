@@ -325,6 +325,12 @@ h6 {
   letter-spacing: 1px;
 }
 
+#hero p span-2 {
+  color: #45505b;
+  font-size: 2vw;
+  font-family: "Poppins", sans-serif;
+}
+
 #hero .social-links {
   margin-top: 30px;
 }
